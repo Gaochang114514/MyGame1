@@ -28,3 +28,6 @@ bool Player::comparePlayers(const pair<string, Player>& a, const pair<string, Pl
 		static_cast<double>(b.second.totalCorrectAnswers) / b.second.totalQuestionsAnswered : 0;
 	return accuracyA > accuracyB;
 }
+void fuckyou() {
+
+}
