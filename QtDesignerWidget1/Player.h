@@ -9,8 +9,6 @@
 using std::string;
 using std::pair;
 
-std::map<std::string, Player> playerMap;
-
 class Player {
 private:
 	string username;
@@ -25,4 +23,6 @@ public:
 	void playerRank(Player& player);
 	bool comparePlayers(const pair<string, Player>& a, const pair<string, Player>& b);
 };
+
+extern std::map<std::string, Player> playerMap;
 #endif // !PLAYER_H
